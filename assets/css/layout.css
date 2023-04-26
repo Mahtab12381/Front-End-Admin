@@ -53,6 +53,7 @@ a.sidebarCollapse {
 
 ul.navbar-item {
     display: flex;
+    padding-right: 20px;
 }
 
 .dropdown {
@@ -143,7 +144,7 @@ ul.navbar-item {
     background: var(--second-color);
     position: fixed;
     transition: .5s;
-    margin-top: 78px;
+    margin-top: -6px;
     text-align: center;
     padding-top: 20px;
     display: flex;
