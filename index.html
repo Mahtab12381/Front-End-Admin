@@ -1,6 +1,120 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <title>My First PHP Page</title>
-    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AdminPanel</title>
+    <link rel="stylesheet" href="assets/css/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/sass.css">
+    <link rel="stylesheet" href="assets/css/layout.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <script src="https://kit.fontawesome.com/3031c80b21.js" crossorigin="anonymous"></script>
 </head>
+<body>
+    
+    <div class="main-wrapper">
+        <!----navbar---->
+        <div class="header-container fixed-top">
+            <header class="header navbar navbar-expand-sm expand-header">
+                <div class="header-left d-flex">
+                    <a href="" class="sidebarCollapse" data-placement="bottom">
+                        <span class="fas fa-bars"></span>
+                    </a>
+                    <div class="logo">
+                        KANTAR
+                    </div>   
+                    <div class="text-nav">
+                        <a href="">Advertising Insights </a>
+                    </div> 
+                    <div class="search">
+                        <input type="text" placeholder="Search" id="search">
+                    </div> 
+
+                </div>
+                <ul class="navbar-item flex-row ml-auto">
+                    <li>
+                        <p class="nav-link text-nav">FIT user3</p>    
+                    </li>
+                    <li class="nav-item dropdown profile">
+                        <a href="" class="nav-link profile-list" id="profile" data-bs-toggle="dropdown">
+                            <img src="assets/img/down.png" alt="" class="icon-dropdown">
+                            <img src="assets/img/profile.png" alt="" class="icon">
+                            My New Profile
+                        </a>
+                    </li>
+
+
+                    <li class="nav-item dropdown notification">
+                        <a href="" class="nav-link notify-list" id="notify" data-bs-toggle="dropdown">
+                            <img src="assets/img/bell.png" alt="" class="icon">
+                            <p class="count">2</p>
+                        </a>
+                    </li>
+                </ul>
+            </header>
+        </div>
+         <!----navbar end---->
+
+         <!----sidebar start---->
+        <div class="left-menu">
+            <div class="menubar-content">
+                <nav class="animated bounceInDown">
+                    <ul id="sidebar">
+                        <li>
+                            <a href="" > 
+                                <img src="assets/img/home.png" alt="" class="icon">
+                                Home
+                            </a>
+                        </li>   
+                        <li>
+                            <a href="" > 
+                                <img src="assets/img/speedometer.png" alt="" class="icon">
+                                Watch
+                            </a>
+                        </li>   
+                        <li>
+                            <a href="" > 
+                                <img src="assets/img/explore.png" alt="" class="icon">
+                                Explore
+                            </a>
+                        </li>   
+                        <li>
+                            <a href="" > 
+                                <img src="assets/img/AI.png" alt="" class="icon">
+                                Focus AI
+                            </a>
+                        </li>   
+                       
+                    </ul>  
+                    <div class="li-bottom">
+                        <ul id="sidebar">
+                            <li>
+                                <a href="" > 
+                                    <img src="assets/img/like.png" alt="" class="icon">
+                                    Feedback
+                                </a>
+                            </li>   
+                            <li>
+                                <a href="" > 
+                                    <img src="assets/img/question.png" alt="" class="icon">
+                                         <br>
+                                         Help
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                   
+                </nav>
+            </div>
+        </div>
+
+
+        <!----sidebar end---->
+    </div>
+ 
+    <script src="assets/js/bootstrap/bootstrap.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
 </html>
