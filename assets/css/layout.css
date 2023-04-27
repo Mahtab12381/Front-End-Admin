@@ -140,7 +140,7 @@ ul.navbar-item {
 /*--------------------------sidebar start--------------------*/ 
 .left-menu {
     height: 100vh;
-    width: 82.35px;
+    width: 80.5px;
     background: var(--second-color);
     position: fixed;
     transition: .5s;
