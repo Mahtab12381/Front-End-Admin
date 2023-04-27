@@ -4,6 +4,8 @@
     width: 95%;
     
 }
+
+/*------------------------------------contant wraper header------------------------------------*/
 .extra-nav{
     display: flex;
     justify-content: end;
@@ -37,6 +39,8 @@ li.nav-item a {
 .extra-nav ul.navbar-item {
     padding-right: 0px;
 }
+
+/*------------------------------------contant wraper body------------------------------------*/
 
 .card-header h6 {
     display: flex;
@@ -120,7 +124,7 @@ tr:hover {
 .table-div{
     padding: 10px;
     border: 1px solid #ddd;
-    height: 300px;
+    height: 320px;
     overflow-y: scroll;
 }
 
@@ -170,7 +174,7 @@ a.nav-link p.list-text{
 }
 .list-group{
     overflow-y: scroll;
-    height: 200px;
+    height: 250px;
     border-bottom:1px solid #333;
 
 }
@@ -178,4 +182,54 @@ a.nav-link p.list-text{
     font-size: 20px;
     margin-right: 5px;
     color: var(--main-color-alt);
+}
+
+.content-group {
+    padding: 10px;
+}
+
+.content-group-1 {
+    padding: 5px;
+    border-bottom: 1px solid #70707070;
+    padding-bottom: 10px;
+}
+
+.content-group-2 {
+    padding: 5px;
+    padding-bottom: 25px;
+}
+
+.content-group-3.d-flex {
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #70707070;
+    padding-bottom: 10px;
+}
+
+.content-group-1 h5 {
+    color: var(--main-color-alt);
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+.content-group-1 h6 {
+    font-size: 13px;
+    font-style: italic;
+    color: blue;
+}
+
+.content-group-2 h5 {
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+.content-group-2 h6 {
+    font-size: 13px;
+    font-weight: 400;
+    color: var(--ash-color);
+}
+
+.content-group-3 h6 {
+    font-size: 13px;
+    color: var(--ash-color);
 }

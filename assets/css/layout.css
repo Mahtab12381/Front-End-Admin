@@ -140,7 +140,7 @@ ul.navbar-item {
 /*--------------------------sidebar start--------------------*/ 
 .left-menu {
     height: 100vh;
-    width: 74.3px;
+    width: 82.35px;
     background: var(--second-color);
     position: fixed;
     transition: .5s;
@@ -148,7 +148,9 @@ ul.navbar-item {
     text-align: center;
     padding-top: 20px;
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
+    overflow-y: scroll;
 }
 
 nav.animated {
@@ -171,9 +173,8 @@ ul#sidebar li a {
     padding: 7px;
     font-size: 13px;
 }
-.li-bottom{
-    margin-top: 250px;
 
+.menubar-content-2{
+    padding-bottom: 100px;
 }
-
 /*--------------------------sidebar end--------------------*/ 
