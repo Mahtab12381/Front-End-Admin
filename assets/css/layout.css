@@ -144,7 +144,7 @@ ul.navbar-item {
     background: var(--second-color);
     position: fixed;
     transition: .5s;
-    margin-top: -6px;
+    margin-top: -9px;
     text-align: center;
     padding-top: 20px;
     display: flex;
@@ -172,7 +172,7 @@ ul#sidebar li a {
     font-size: 13px;
 }
 .li-bottom{
-    margin-top: 300px;
+    margin-top: 250px;
 
 }
 
